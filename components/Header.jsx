@@ -27,7 +27,11 @@ const Header = () => {
               </span>
             </Link>
           ))}
-          <Link href="https://app.graphcms.com/">Login</Link>
+          <Link href="https://app.graphcms.com/">
+            <span className="mt-2 ml-4 cursor-pointer align-middle font-semibold text-white md:float-right">
+              Login
+            </span>
+          </Link>
         </div>
       </div>
     </div>
